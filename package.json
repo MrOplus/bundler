@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "test": "dart test test",
+        "format": "dart format .",
+        "prepublish": "npm run format",
+        "publish-dry-run": "dart pub publish --dry-run",
+        "publish": "dart pub publish"
+    }
+}
